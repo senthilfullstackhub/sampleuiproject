@@ -3,7 +3,6 @@ import { connect } from 'react-redux';
 import { Redirect } from 'react-router-dom';
 
 // To render the Barclay page with details
-
 const BarclayPage = props => {
 
     let uiRender;

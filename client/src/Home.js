@@ -5,7 +5,6 @@ import { Redirect } from 'react-router-dom';
 import Spinner from './Component/Spinner';
 
 const Home = props => {
-
     // State to control the form
 
     const [firstName, setFirstName] = useState('');
@@ -17,7 +16,6 @@ const Home = props => {
     const [formErrorIncome, setFormErrorIncome] = useState(false);
 
     // To handle and validate the change in form field
-
     const handleFirstNameChange = (event) => {
         setFirstName(event.target.value)
         if ((event.target.value === "") || (event.target.value === null) || (event.target.value === " ")) {
@@ -66,7 +64,6 @@ const Home = props => {
     }
 
     // To submit the form to get the decision check services
-
     const handleSubmit = (event) => {
         event.preventDefault();
         if (firstName === lastName) {
@@ -82,7 +79,6 @@ const Home = props => {
         }
 
     // To get the current day
-
     const todayDate = () => {
         let d = new Date(),
             month = '' + (d.getMonth() + 1),
@@ -98,7 +94,6 @@ const Home = props => {
     }
 
     // To render the check form
-
     let uiRender;
 
     if (props.renderUiPage === 'Home') {
@@ -120,7 +115,6 @@ const Home = props => {
                              <p id="formErrorFirstName">{formErrorFirstName}</p>
                         </div>
                     </div>
-
                     <div className="row">
                         <div className="col span-1-of-3">
                             <label>Last Name *</label>
@@ -132,7 +126,6 @@ const Home = props => {
                              <p id="formErrorLastName">{formErrorLastName}</p>
                         </div>
                     </div>
-
                     <div className="row">
                         <div className="col span-1-of-3">
                             <label>Annual Income in £ *</label>

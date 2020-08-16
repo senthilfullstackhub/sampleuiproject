@@ -40,13 +40,10 @@ exports.check = function (req, res, next) {
     timestampLog: response.data.createdOn,
     serviceDecision: serviceDecision,
     apr: serviceAPR
-    });
-        
-   
+    });    
   })
   .catch((error) => {
       console.log(error)
       res.status(500).send({apiErrorMessage: 'Internal Server Error'})
   });
-
 }

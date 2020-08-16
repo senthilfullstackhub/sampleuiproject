@@ -3,7 +3,6 @@ import { connect } from 'react-redux';
 import { Redirect } from 'react-router-dom';
 
 // To render the Vanquis page with details
-
 const VanquisPage = props => {
 
     let uiRender;

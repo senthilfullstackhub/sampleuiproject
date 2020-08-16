@@ -2,7 +2,6 @@ import axios from 'axios';
 require('es6-promise').polyfill();
 
 // To map the fetch response with details
-
 export const fetchResponseSuccess = (res) => {
         return {
             type: 'API_RESPONSE_MAPPING',

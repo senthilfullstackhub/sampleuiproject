@@ -3,7 +3,6 @@ import { connect } from 'react-redux';
 import { Redirect } from 'react-router-dom';
 
 // To render the not available page with details
-
 const NotEligiblePage = props => {
 
     let uiRender;
