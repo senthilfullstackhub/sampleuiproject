@@ -19,7 +19,7 @@ const NotEligiblePage = props => {
                 <div className="col span-1-of-3">
                     <label>&nbsp;</label>
                 </div>
-                <div className="col span-2-of-3">
+                <div className="col span-3-of-3 btnCenter">
                     <input type="submit" value="Back to Form Page" onClick={props.switchToFormPage}></input>
                 </div>
             </div>

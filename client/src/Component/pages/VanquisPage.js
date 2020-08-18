@@ -14,6 +14,9 @@ const VanquisPage = props => {
             </div>
             <div className="row"><b>0% interest balance transfer and purchases for up to 18 months.</b></div>
             <br></br>
+            <div className="row imageCenter">
+                <img src="../Vanquiscard.png" alt="Vanquis card" />
+            </div>
             <div className="row">
                 <ul >
                     <li className="col span-1-of-3">
@@ -41,7 +44,7 @@ const VanquisPage = props => {
                 <div className="col span-1-of-3">
                     <label>&nbsp;</label>
                 </div>
-                <div className="col span-2-of-3">
+                <div className="col span-3-of-3 btnCenter">
                     <input type="submit" value="Back to Form Page" onClick={props.switchToFormPage}></input>
                 </div>
             </div>
