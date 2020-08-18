@@ -10,7 +10,7 @@ const BarclayPage = props => {
     if (props.renderUiPage === 'Barclay') {
         uiRender = <div>
             <div className="row">
-                <h2>Eligible for Barclay Credit Card</h2>
+                <h2>Congratulations! You are eligible for Barclay Credit Card</h2>
             </div>
            <div className="row"><b>0% interest balance transfer and purchases for up to 24 months. *Any introductory balance transfer offer must be made within the first 60 days of account opening for new customers.</b></div>
             <br></br>

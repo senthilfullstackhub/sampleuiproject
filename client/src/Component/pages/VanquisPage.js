@@ -10,7 +10,7 @@ const VanquisPage = props => {
     if (props.renderUiPage === 'Vanquis') {
         uiRender = <div>
             <div className="row">
-                <h2>Eligible for Vanquis Credit Card</h2>
+                <h2>Congratulations! You are eligible for Vanquis Credit Card</h2>
             </div>
             <div className="row"><b>0% interest balance transfer and purchases for up to 18 months.</b></div>
             <br></br>
